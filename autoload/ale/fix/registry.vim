@@ -291,6 +291,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['cmake'],
 \       'description': 'Fix CMake files with cmake-format.',
 \   },
+\   'fantomas': {
+\       'function': 'ale#fixers#fantomas#Fix',
+\       'suggested_filetypes': ['fsharp'],
+\       'description': 'Format F# files with Fantomas.',
+\   },
 \   'fish_indent': {
 \       'function': 'ale#fixers#fish_indent#Fix',
 \       'suggested_filetypes': ['fish'],
